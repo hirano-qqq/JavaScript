@@ -11,6 +11,7 @@ function juiceFactory(fruits) {
 //⑤関数の実行：「みかん」を渡して、結果を受け取れるように適当な変数（orangeJuice）を用意
 
 let orangeJuice = "みかん";
+let result = juiceFactory(orangeJuice);
 
 //⑥返ってきた変数を利用して「〇〇が届きました」と出力する
-console.log(juiceFactory(orangeJuice) +"が届きました");
+console.log(result +"が届きました");
